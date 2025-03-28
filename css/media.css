@@ -365,6 +365,10 @@
     .home-article-img {
         width: 50%;
     }
+
+    .home-reflection-img img {
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 575px) {
@@ -583,7 +587,6 @@
     }
 
     .home-reflection-img img {
-        box-shadow: none;
         width: 100%;
     }
 
