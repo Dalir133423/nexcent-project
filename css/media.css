@@ -1,3 +1,15 @@
+@media(max-width: 1300px) {
+    .header-buttons button {
+        right: 0;
+    }
+
+    .header-logo a {
+        margin-left: 0px;
+    }
+}
+
+
+
 @media (max-width: 1199px) {
     .col-xl {
         padding: 0 16px;

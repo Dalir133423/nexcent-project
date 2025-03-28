@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -200,11 +200,11 @@
                     <span>British Dragon Boat Racing Association</span>
                     <div class="home-article-icons">
                         <img src="img/clients-logo-1.svg" alt="">
-                        <img src="img/clients-logo-1.svg" alt="">
-                        <img src="img/clients-logo-1.svg" alt="">
-                        <img src="img/clients-logo-1.svg" alt="">
-                        <img src="img/clients-logo-1.svg" alt="">
-                        <img src="img/clients-logo-1.svg" alt="">
+                        <img src="img/clients-logo-2.svg" alt="">
+                        <img src="img/clients-logo-3.svg" alt="">
+                        <img src="img/clients-logo-4.svg" alt="">
+                        <img src="img/clients-logo-5.svg" alt="">
+                        <img src="img/clients-logo-6.svg" alt="">
                         <a href="#">Meet all customers <img src="img/right-arrow.svg" alt=""></a>
                     </div>
 
@@ -229,14 +229,14 @@
                     </div>
                 </div>
                 <div class="col col-4 col-xl-6 col-lg-12 home-marketing-row-item">
-                    <img src="img/marketing-img--1.png" alt="" class="marketing-img">
+                    <img src="img/marketing-img--2.png" alt="" class="marketing-img">
                     <div class="home-marketing-text">
                         <b>What are your safeguarding responsibilities and how can you manage them?</b>
                         <a href="">Readmore <img src="img/right-arrow.svg" alt=""></a>
                     </div>
                 </div>
                 <div class="col col-4 col-xl-6 col-lg-12 home-marketing-row-item">
-                    <img src="img/marketing-img--1.png" alt="" class="marketing-img">
+                    <img src="img/marketing-img--3.png" alt="" class="marketing-img">
                     <div class="home-marketing-text">
                         <b>Revamping the Membership Model with Triathlon Australia</b>
                         <a href="">Readmore <img src="img/right-arrow.svg" alt=""></a>
@@ -296,16 +296,25 @@
             </div>
         </div>
     </footer>
+    <script>
+        // const button = document.getElementsByTagName('button');
 
+        // button.addEventListener("click", function() {
+        //     alert("ПРИВЕТ")
+        // })
 
-
-
-
-
-
-
-
-
-    <script src="./main.js"></script>
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('click', function() {
+                let numder = Number(prompt("ВВЕДИТЕ ВОЗРАСТ"))
+                if(numder < 10) {
+                    alert('Доступ запрещен')
+                } else if (numder >= 10){
+                    alert('Доступ разрешен')
+                } else {
+                    alert("Ошибка")
+                }
+            })
+        })
+    </script>
 </body>
 </html>

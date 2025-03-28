@@ -23,6 +23,7 @@
     --Warning-color: #FBC02D;
     --Error-color: #E53835;
     --Success-color: #2E7D31; 
+    --Button-color: #4CAF4F;
 }
 
 
@@ -49,7 +50,7 @@ button {
     color: white;
     font-weight: 500;
     padding: 14px 32px;
-    background: var(--Primary-color);
+    background: var(--Button-color);
 
 }
 
@@ -161,6 +162,10 @@ a {
     padding: 30px 0;
 }
 
+.header-logo a {
+    /* margin-left: -50px; */
+}
+
 .header-nav {
     display: flex;
     justify-content: center;
@@ -173,7 +178,8 @@ a {
 
 .header-buttons button {
     padding: 10px 20px;
-    
+    /* position: relative; */
+    /* right: -50px; */
 }
 
 .header-buttons {
@@ -331,7 +337,7 @@ a {
 }
 
 .home-transformation-text h6 span {
-    color: #4CAF4F;
+    color: var(--Button-color);
     display: block;
     font-weight: 600;
 }
@@ -391,7 +397,7 @@ a {
 }
 
 .home-article b {
-    color: #4CAF4F;
+    color: var(--Button-color);
     font-size: 20px;
     font-weight: 600;
     line-height: 1.4;
@@ -416,7 +422,7 @@ a {
 .home-article-icons a {
     font-size: 20px;
     line-height: 1.4;
-    color: #4CAF4F;
+    color: var(--Button-color);
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -475,7 +481,7 @@ a {
 .home-marketing-text a {
     font-size: 20px;
     line-height: 1.4;
-    color: #4CAF4F;
+    color: var(--Button-color);
     display: flex;
     gap: 8px;
     justify-content: center;
